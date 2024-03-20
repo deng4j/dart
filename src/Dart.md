@@ -1,5 +1,14 @@
 vscode运行.dart文件要安装Code Runner插件
 
+# 一.命令
+
+```shell
+dart help
+dart --version
+```
+
+
+
 # 一.介绍
 
 - Dart所有的东西都是对象， 即使是数字numbers、函数function、null也都是对象，所有的对象都继承自Object类

@@ -7,15 +7,27 @@
  */
 
 void main(){
-  var a='aaa';
+  // 单引号
+  String a='aaa';
   print(a);
 
-  var b = "dasdasd";
+  // 双引号
+  String b = "bbb";
   print(b);
 
-  var c = "dasv"+'123';
+  String c = "ccc"+'123';
   print(c);
 
-  var d = "dasv'115'";
+  String d = "ddd'115'";
   print(d);
+
+  // 三引号
+  String e = """
+             eeee
+            """;
+  print(e);
+
+  // 拼接
+  print(a+b);
+  print("$a $b");
 }
