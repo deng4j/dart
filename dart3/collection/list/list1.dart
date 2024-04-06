@@ -9,4 +9,6 @@ void main(List<String> args) {
   list.add('three'); 
 
   print(list); 
+
+  var list1=<String>['a','b','c']; // 泛型
 }
