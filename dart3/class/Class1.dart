@@ -1,4 +1,8 @@
-// 面向对象：封装，继承，多态
+/**
+ * Object是所有类的基类
+ * 
+ * 面向对象：封装，继承，多态
+ */
 class Person {
   String name; //属性
   int age;
