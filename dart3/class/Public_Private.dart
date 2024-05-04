@@ -13,6 +13,9 @@ class Persion {
     print("私有方法");
   }
 }
+
+// 私有，其他包不可见
+int _a = 1;
  
 void main() {
   Persion man = new Persion("Dart");
