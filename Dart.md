@@ -1,4 +1,10 @@
+# vscode配置
+
 vscode运行.dart文件要安装Code Runner插件
+
+安装dart、flutter插件下载依赖
+
+注意：不要直接从浏览器复制代码到vscode保存，会乱码，其他代码运行也会乱码
 
 # 一.命令
 
