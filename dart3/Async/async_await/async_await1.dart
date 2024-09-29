@@ -20,7 +20,8 @@ getDataFromZhihuAPI() async {
   //1、创建HttpClient对象
   var httpClient = new HttpClient();
   //2、创建Uri对象
-  var uri = new Uri.http('news-at.zhihu.com', '/api/3/stories/latest');
+  var uri = Uri.parse("http://172.20.10.3:8080/script/getServerIP");
+
   //3、发起请求，等待请求
   var request = await httpClient.getUrl(uri);
   //4、关闭请求，等待响应
